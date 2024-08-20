@@ -1,0 +1,5 @@
+[
+    {"ns": 4, "id": 12, "Description": "ACTIVE POWER"},
+    {"ns": 4, "id": 13, "Description": "APPARENT POWER"},
+    {"ns": 4, "id": 5, "Description": "MEMBRANE_STATUS"}
+]

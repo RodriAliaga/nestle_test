@@ -1,0 +1,20 @@
+[
+    {
+        "Block": "Output",
+        "Address": "O0:0/0",
+        "Description": "P-01 STARTER",
+        "DataType": "Bool"
+    },
+    {
+        "Block": "Integer",
+        "Address": "N7:00",
+        "Description": "FEED TEMPERATURE SCALED 0-100 CENTIGRADE",
+        "DataType": "Int"
+    },
+    {
+        "Block": "Float",
+        "Address": "F8:0",
+        "Description": "CONCENTRATE FLOW SCALED 0-34.21GPM",
+        "DataType": "Float"
+    }
+]
