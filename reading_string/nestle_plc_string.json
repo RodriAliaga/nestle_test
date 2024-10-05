@@ -1,0 +1,5 @@
+[
+{"ns":2,"s":"Studio.Tags.Application.WaterHeater_Energy_STTP_GW1.CommsStatus","Descripcion":"WaterHeater"},
+{"ns":2,"s":"Studio.Tags.Application.WaterHeater_Energy_STTP_GW1_TEST.CommsStatusIO","Descripcion":"Second Value"},
+{"ns":2,"s":"Studio.Tags.Application.PUMP1401_PdM_VIB1401_3.High_Frequency_RMS_Acceleration_Warning","Descripcion":"AccelWarning"}
+]

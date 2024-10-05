@@ -1,0 +1,27 @@
+[
+    {
+        "ns": 1,
+        "s": "Session_2860751837.SessionDiagnostics.MaxResponseMessageSize",
+        "Description": "Max Response Message Size"
+    },
+    {
+        "ns": 1,
+        "s": "Session_2860751837.SessionDiagnostics.ActualSessionTimeout",
+        "Description": "Actual Session Timeout"
+    },
+    {
+        "ns": 1,
+        "s": "Session_2860751837.SessionDiagnostics.ClientConnectionTime",
+        "Description": "Client Connection Time"
+    },
+    {
+        "ns": 1,
+        "s": "Session_2860751837.SessionDiagnostics.ClientLastContactTime",
+        "Description": "Client Last Contact Time"
+    },
+    {
+        "ns": 1,
+        "s": "Session_2860751837.SessionDiagnostics.CurrentSubscriptionsCount",
+        "Description": "Current Subscriptions Count"
+    }
+]
