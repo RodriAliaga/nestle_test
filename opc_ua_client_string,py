@@ -8,7 +8,7 @@ def main():
 
     try:
         client.connect()
-        print("Connected to OPC UA Server")
+        #print("Connected to OPC UA Server")
 
         # Browse root and objects nodes for debugging
         root_node = client.get_root_node()
@@ -17,11 +17,11 @@ def main():
             print("Child:", child)
 
         objects_node = client.get_objects_node()
-        print("Objects node is: ", objects_node)
+        #print("Objects node is: ", objects_node)
 
         # Get namespace array for debugging
         ns_array = client.get_namespace_array()
-        print("Namespaces available:", ns_array)
+        #print("Namespaces available:", ns_array)
 
         # Load the JSON mapping file
         try:
@@ -38,7 +38,7 @@ def main():
             try:
                 ns = el["ns"]
                 string_id = el["s"]
-                tag_name = el["Description"]
+                tag_name = el["Description"]  
 
                 # Create a NodeId using the string identifier
                 node = client.get_node(f"ns={ns};s={string_id}")
