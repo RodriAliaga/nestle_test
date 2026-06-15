@@ -1,0 +1,26 @@
+# Virtual environments
+opc_nestle/
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Local environment files
+.env
+.env.*
+

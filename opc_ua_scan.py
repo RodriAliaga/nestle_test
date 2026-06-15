@@ -2,7 +2,7 @@ from opcua import Client
 from opcua import ua
 
 # Replace this URL with your OPC UA server endpoint
-OPC_SERVER_URL = "opc.tcp://192.168.2.50:4840"  # Example endpoint
+OPC_SERVER_URL = "opc.tcp://192.168.2.33:4840"  # Example endpoint
 
 # Connect to the OPC UA server
 client = Client(OPC_SERVER_URL)
